@@ -1,0 +1,4 @@
+name: auth_event
+description: auth event brick
+vars:
+  - name
