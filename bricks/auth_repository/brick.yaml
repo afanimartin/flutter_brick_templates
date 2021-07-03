@@ -1,0 +1,4 @@
+name: auth_repository
+description: auth repository class to implement iauth_repository
+vars:
+  - name
