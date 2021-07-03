@@ -9,7 +9,7 @@ class {{#pascalCase}}{{name}}{{/pascalCase}} extends StatelessWidget {
   final String url;
 
   ///
-  final int height;
+  final double height;
 
   static Route get route => MaterialPageRoute(builder: (_) => const {{#pascalCase}}{{name}}{{/pascalCase}}());
 
