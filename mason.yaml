@@ -3,3 +3,5 @@ bricks:
     path: bricks/widget
   splash:
     path: bricks/splash
+  login:
+    path: bricks/login
