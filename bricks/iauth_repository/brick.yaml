@@ -1,0 +1,4 @@
+name: iauth_repository
+description: authentication repository interface
+vars:
+  - name

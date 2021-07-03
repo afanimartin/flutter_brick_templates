@@ -9,3 +9,5 @@ bricks:
     path: bricks/home
   app:
     path: bricks/app
+  iauth_repository:
+    path: bricks/iauth_repository
