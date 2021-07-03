@@ -1,15 +1,22 @@
 class {{#pascalCase}}{{name}}{{/pascalCase}} extends Equatable {
-  const {{#pascalCase}}{{name}}{{/pascalCase}}({@required this.id, @required this.displayName, @required this.email, @required this.photoUrl});
+  const {{#pascalCase}}{{name}}{{/pascalCase}}({@required this.userId, @required this.displayName, @required this.email, @required this.photoUrl});
 
-  final String id;
+  factory {{#pascalCase}}{{name}}{{/pascalCase}}.fromSnapshot(DocumentSnapshot doc) => {{#pascalCase}}{{name}}{{/pascalCase}}(userId: doc.id, displayName: doc['display_name'], email: doc['email'], photoUrl: doc['photo_url']);
+
+  static const empty = UserModel(
+    useruserId: '',
+    email: '',
+    displayName: '',
+    photoUrl: '',
+  );
+
+  final String userId;
   final String displayName;
   final String email;
   final String photoUrl;
 
-  factory {{#pascalCase}}{{name}}{{/pascalCase}}.fromSnapshot(DocumentSnapshot doc) => {{#pascalCase}}{{name}}{{/pascalCase}}(id: doc.id, displayName: doc['display_name'], email: doc['email'], photoUrl: doc['photo_url']);
+  Map<String, dynamic> toDocument() => {'user_id': userId, 'display_name': displayName, 'email': email, 'photo_url': photoUrl};
 
-  Map<String, dynamic> toDocument() => {'id': id, 'display_name': displayName, 'email': email, 'photo_url': photoUrl};
-
-  @override
-  List<Object> get props => [id, displayName, email, photoUrl];
+  @overruserIde
+  List<Object> get props => [userId, displayName, email, photoUrl];
 }
