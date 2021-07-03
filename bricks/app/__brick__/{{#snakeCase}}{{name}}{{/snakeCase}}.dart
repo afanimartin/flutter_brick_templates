@@ -1,3 +1,5 @@
+import 'package:flutter.dart';
+
 class {{#pascalCase}}{{name}}{{/pascalCase}} extends StatelessWidget {
   const {{#pascalCase}}{{name}}{{/pascalCase}}({@required this.authenticationRepository, Key key}) : super(key: key);
 
