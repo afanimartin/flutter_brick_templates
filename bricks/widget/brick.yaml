@@ -2,3 +2,4 @@ name: widget
 description: Custom flutter widget
 vars:
   - name
+  - routable
