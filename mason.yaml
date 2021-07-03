@@ -5,3 +5,5 @@ bricks:
     path: bricks/splash
   login:
     path: bricks/login
+  home:
+    path: bricks/home
