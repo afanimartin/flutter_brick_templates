@@ -19,3 +19,5 @@ bricks:
     path: bricks/auth_state
   auth_event:
     path: bricks/auth_event
+  auth_bloc:
+    path: bricks/auth_bloc

@@ -1,0 +1,4 @@
+name: auth_bloc
+description: auth bloc brick
+vars:
+  - name
