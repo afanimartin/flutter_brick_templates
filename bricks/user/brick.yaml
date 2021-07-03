@@ -1,0 +1,4 @@
+name: user
+description: user model brick
+vars:
+  - name
