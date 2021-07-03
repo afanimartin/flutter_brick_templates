@@ -1,0 +1,4 @@
+name: auth_state
+description: auth state brick
+vars:
+  - name

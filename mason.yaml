@@ -15,3 +15,5 @@ bricks:
     path: bricks/auth_repository
   user:
     path: bricks/user
+  auth_state:
+    path: bricks/auth_state
