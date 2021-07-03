@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 
 class {{#pascalCase}}{{name}}{{/pascalCase}} extends StatelessWidget {
-  const {{#pascalCase}}{{name}}{{/pascalCase}}({@required this.url,this.top=100, this.height=100, Key key}) : super(key: key);
-
-  final String url;
-
-  final double top;
-
-  final double height;
+  const {{#pascalCase}}{{name}}{{/pascalCase}}({Key key}) : super(key: key);
 
   static Route get route => MaterialPageRoute(builder: (_) => const {{#pascalCase}}{{name}}{{/pascalCase}}());
 
@@ -19,10 +13,10 @@ class {{#pascalCase}}{{name}}{{/pascalCase}} extends StatelessWidget {
         alignment: const Alignment(0, -1 / 3),
         child: Column(children: [
           Padding(
-            padding: const EdgeInsets.only(top: top),
-            child: Image.asset(url, height: height)
+            padding: const EdgeInsets.only(top: 100),
+            child: Image.asset('', height: 100)
           ),
-          const SizedBox(height: height),
+          const SizedBox(height: 100),
           _GoogleLogInButton()
         ])
       )
