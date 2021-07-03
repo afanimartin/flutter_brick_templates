@@ -1,0 +1,4 @@
+name: app
+description: entry point for the app
+vars:
+  - name
