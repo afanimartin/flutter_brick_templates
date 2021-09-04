@@ -21,3 +21,5 @@ bricks:
     path: bricks/auth_event
   auth_bloc:
     path: bricks/auth_bloc
+  login_cubit:
+    path: bricks/login_cubit
