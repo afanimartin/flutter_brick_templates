@@ -23,3 +23,5 @@ bricks:
     path: bricks/auth_bloc
   login_cubit:
     path: bricks/login_cubit
+  login_state:
+    path: bricks/login_state
