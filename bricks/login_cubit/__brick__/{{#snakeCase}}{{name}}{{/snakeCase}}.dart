@@ -7,6 +7,6 @@ class {{#pascalCase}}{{name}}{{/pascalCase}} extends Cubit<LoginState> {
 
   ///
   void login() {
-    _authRepository.logInWithGoogleAccount();
+    _authRepository.loginWithGoogleAccount();
   }
 }
