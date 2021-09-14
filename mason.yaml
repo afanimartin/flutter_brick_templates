@@ -29,3 +29,5 @@ bricks:
     path: bricks/image_upload
   preview_image:
     path: bricks/preview_image
+  image_grid:
+    path: bricks/image_grid
