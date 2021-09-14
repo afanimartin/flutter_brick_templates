@@ -27,3 +27,5 @@ bricks:
     path: bricks/login_state
   image_upload:
     path: bricks/image_upload
+  preview_image:
+    path: bricks/preview_image
