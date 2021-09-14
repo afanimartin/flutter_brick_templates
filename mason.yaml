@@ -25,3 +25,5 @@ bricks:
     path: bricks/login_cubit
   login_state:
     path: bricks/login_state
+  image_upload:
+    path: bricks/image_upload
